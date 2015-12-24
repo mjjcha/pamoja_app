@@ -4,6 +4,8 @@ Contributors: Judy Cha, Rahim Jadavji, Samuel Graham-Douglas
 
 Pamoja (Swahili for "together") is an app aimed to promote fair-trade transactions for individual producers working in developing nations. By bridging the interaction between the consumer and the seller, Pamoja guarantees secure monetary transfers.  
 
+Please visit https://pamoja.herokuapp.com/ to sample the project.
+
 
 Home page 
 ![Sample Page1](/public/images/sample1.png)
