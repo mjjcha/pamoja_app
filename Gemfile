@@ -15,10 +15,9 @@ gem 'tux'
 
 group :development, :test do
   gem 'shotgun'
-  gem 'sqlite3'
+  gem 'sqlite3', '1.3.10'
 end
 
 group :production do
   gem 'pg'
-  gem 'sqlite3'
 end
