@@ -13,15 +13,6 @@ configure do
     set :database, ENV['DATABASE_URL']
   end
   
-  set :database, {
-    host: "ec2-54-83-59-154.compute-1.amazonaws.com",
-    adapter: "postgresql",
-    database: "det9u03d5d2d1k",
-    user: "xlxutricqomtyx",
-    password: "C4B1mbiLKRdBaB_Gkxdiktk_pK",
-    port: "5432"
-  }
-
  # Load all models from app/models, using autoload instead of require
  # See http://www.rubyinside.com/ruby-techniques-revealed-autoload-1652.html
   Dir[APP_ROOT.join('app', 'models', '*.rb')].each do |model_file|
